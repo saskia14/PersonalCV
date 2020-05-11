@@ -1,0 +1,47 @@
+body
+{
+  background-color: #e0ebe8;
+}
+
+hr
+{
+  /* the border works like a square, you have top, bottom and sides.
+  If you want to modify the color, just add color to one of them and hide the others
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+  */
+  border-style:  none ;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0px;
+  width: 5%;
+}
+
+h1
+{
+ color: #45b29a;
+}
+h3
+{
+ color: #66BFBF;
+}
+
+/*------CLASS SELECTORS-------*/
+img:hover
+{
+  background-color: gold;
+}
+
+.coffee
+{
+  background-color:#e0ebe8;
+}
+
+/*------ID SELECTORS-------*/
+
+#heading
+{
+  color: blue;
+}
+
+/*the main difference between of them is that ID is for one single item, ONLY ONE. For example, you will only have one navigation bar. But titles for example, they should be a class, because a group of titles will have the same style*/
